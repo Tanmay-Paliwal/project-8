@@ -1,0 +1,268 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+body{
+  background-color: rgb(248 248 250);
+}
+header{
+  background-color: #4517fe;
+  color: white;
+}
+nav{
+  display: flex;
+  position: absolute;
+  top: 2%;
+  right: 5%;
+}
+nav a{
+  display: flex;
+  padding-right: 30px;
+}
+svg{
+  padding: 7px 15px;
+}
+.nav-item-active{
+  padding: 1px 8px;
+  background-color: white;
+  color: #4517fe;
+}
+.logo{
+  padding: 35px 45px;
+}
+.header-text{
+  padding: 45px 40px 44px 40px;
+}
+.header-text h2{
+  font-size: 50px;
+  margin: 0px;
+}
+.header-image {
+  position: absolute;
+  top: 10%;
+  right: 0%;
+}
+.companies{
+  padding: 20px;
+}
+.companies a{
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 60px;
+  color: black;
+  font-family: "Righteous";
+}
+.api{
+  font-size: 22px;
+  font-weight: 900;
+  padding-left: 45px;
+}
+.api-heading{
+  padding: 45px 0px;
+}
+.cards{
+  display: flex;
+}
+.cards::after{
+  font-size: 50px;
+  position: absolute;
+  top: 95%;
+  right: 6%;
+  content: ">";
+}
+.cards .card-active{
+  padding-left: 35px;
+  height: 220px;
+  width: 300px;
+}
+.card-active{
+  padding-right: 40px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: rgb(255, 255, 255);
+}
+.card-active, p{
+  font-size: 17px;
+  padding: 25px 0px;
+}
+.card-active h3{
+  font-size: 25px;
+  color: hsl(252deg 97% 59%);
+}
+.card{
+  padding: 25px 50px;
+}
+.blog-heading{
+  position: relative;
+  justify-content: space-between;
+  font-weight: 900;
+}
+.blog-heading h1{
+  font-size: 44px;
+  padding: 40px 45px;
+}
+.blog-heading::after{
+  position: absolute;
+  font-size: 24px;
+  top: 70%;
+  right: 5%;
+  content: "See All Artice";
+  color: #4517fe;
+}
+.blog-cards{
+  display: flex;
+  padding: 10px 10px 70px 40px;
+}
+.blog-card{
+  position: relative;
+  width: 600px;
+  display: flex;
+  padding-right: 100px;
+}
+.blog-image img{
+  height: 100%;
+  width: 100%;
+}
+.blog-content h6{
+  font-size: 10px;
+  font-family: "Righteous";
+  color: #4517fe;
+}
+.blog-content{
+  padding: 20px 30px 20px 30px;
+  font-size: 14px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: rgb(255, 255, 255);
+}
+.blog-content h3{
+  padding: 18px 0px;
+  font-size: 21px;
+}
+.blog-bottom img{
+  position: absolute;
+  top: 86%;
+  right: 50%;
+  border: 4px solid white;
+  border-radius: 50%;
+}
+.blog-author b{
+  position: absolute;
+  top: 91%;
+  right: 33%;
+}
+.faq-section{
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(229deg 100% 96%);
+}
+.faq-content{
+  margin: 25px 10px 40px 10px;
+  padding-left: 40px;
+}
+.faq-content h2{
+  font-size: 44px;
+  margin-bottom: 0px;
+}
+.faq-content :nth-child(3){
+  font-family: "Righteous";
+  font-size: 23px;
+  padding: 25px 0px;
+}
+.faq-content button{
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(252deg 97% 59%);
+  color: white;
+}
+.faq-image img{
+  height: 100%;
+  width: 100%;
+}
+.download-section{
+  display: flex;
+  padding: 70px 40px;
+  justify-content: space-between;
+}
+.download-content{
+  font-size: 18px;
+}
+.download-content h1{
+  padding: 20px 10px;
+  font-family: "Righteous";
+}
+.download-email{
+  display: flex;
+}
+.download-email input{
+  display: flex;
+  border: none;
+  margin: 20px 20px;
+  padding: 20px 360px 20px 50px;
+  border-radius: 50px;
+  background-color: hsl(229deg 100% 96%);
+  z-index: -1;
+}
+.download-email button{
+  position: absolute;
+  top: 228.3%;
+  right: 3.5%;
+  border: none;
+  padding: 15px 26px;
+  border-radius: 50px;
+  background-color: hsl(252deg 97% 59%);
+  color: white;
+}
+.footer-section{
+  display: flex;
+  background-color: #4517fe;
+  color: white;
+  justify-content: space-between;
+}
+.footer-left{
+  padding: 80px 20px 20px 50px;
+}
+.footer-left img{
+  padding: 35px 45px;
+}
+.list{
+  display: flex;
+  list-style-type: none;
+}
+.list li{
+  padding-right: 4px;
+}
+.list li::after{
+  content: "|";
+  padding: 0 1rem;
+}
+.list li:first-child::after{
+  content: "";
+}
+.list li:last-child::after{
+  content: "";
+}
+.footer-right{
+  padding: 40px 50px 0px 50px;
+}
+.footer-right img{
+  padding: 40px 15px;
+  list-style-type: none;
+}
+.logos-list{
+  display: flex;
+}
+.logos-list li{
+  list-style-type: none;
+  padding-right: 8px;
+}
+.logos-list li::after{
+  content: "|";
+  padding: 0 1rem;
+}
+.logos-list li:last-child::after{
+  content: "";
+}
